@@ -97,4 +97,4 @@ The submission includes:
 
 The complete Lab 2 report is available below:
 
-**[Lab 2 Final Report — Agile Backlog & Sprint Simulation](./Lab%202/PES1UG24AM136_Lab2_Report_Kirthana_S.pdf)**
+**[Lab 2 Final Report — Agile Backlog & Sprint Simulation](./PES1UG24AM136_Lab2_Report_Kirthana_S.pdf)**
