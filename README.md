@@ -39,11 +39,8 @@ The submission includes:
 
 The use case allows a Student Team to create a showcase profile for the annual project exhibition. The process includes entering project and team information, providing an abstract summary, adding a demo video link and GitHub repository URL, validating the submitted repository, storing the profile, and making it eligible for publication in the showcase catalog.
 
-### Submission
 
-The complete Lab 1 report is available below:
 
-**[Lab 1 Final Report — UC-01 Create Showcase Profile](./PES1UG24AM136_Lab1_Report_Kirthana_S.pdf)**
 
 ---
 
@@ -93,8 +90,48 @@ The submission includes:
 - Burndown Chart
 - Sprint Reflection
 
-### Submission
+---
 
-The complete Lab 2 report is available below:
+# Lab 3 – Component Modelling & Architectural Pattern Selection
 
-**[Lab 2 Final Report — Agile Backlog & Sprint Simulation](./PES1UG24AM136_Lab2_Report_Kirthana_S.pdf)**
+Lab 3 focuses on designing a UML component diagram and selecting a suitable architectural style for the Student Project Portfolio & Showcase App. The work continues from the functional requirements identified in Lab 1 and the Showcase Profile Management Epic developed in Lab 2.
+
+### Architectural Style
+
+**Layered Architecture**
+
+The architecture separates the user interface, profile management logic, authentication and validation, and data persistence into distinct components.
+
+### Component Diagram
+
+The UML component diagram models the Showcase Profile Management workflow, focusing on:
+
+- **FR-001 – Create Showcase Profile**
+- **FR-002 – Validate GitHub Repository URL**
+- **UC-01 – Create Showcase Profile**
+
+The diagram contains the following components:
+
+1. Showcase UI
+2. Showcase Profile Manager
+3. Authentication & Access Control
+4. GitHub URL Validator
+5. Profile Repository
+6. Showcase Catalog
+
+The interfaces represent profile submission, authorization, repository validation, profile data storage, and publication eligibility. Provided and required interfaces illustrate the interactions between components.
+
+### Written Justification
+
+Layered Architecture was selected to separate component responsibilities and improve maintainability and testability. The GitHub URL Validator ensures that repository URLs are validated before profiles become eligible for publication. Authentication and access control support secure profile operations, while separating validation and persistence helps isolate and test individual operations.
+
+### Deliverables
+
+- `Lab3_Component_Diagram_Kirthana.png` – UML component diagram in PNG format.
+- `Lab3_Component_Diagram_Kirthana.pdf` – UML component diagram in PDF format.
+- `Lab3_Written_Justification_Kirthana.docx` – Written architectural justification.
+- `Lab3_Written_Justification_Kirthana.pdf` – Written architectural justification in PDF format.
+
+### Conclusion
+
+Lab 3 models the interactions between the components responsible for creating, validating, storing, and publishing student project profiles. The selected architecture maintains continuity with the functional requirements and use case established in Lab 1 and the Showcase Profile Management work continued in Lab 2.
